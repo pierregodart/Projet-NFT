@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Marketplace</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 1rem;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .banner {
+            background-color: #ffeb3b;
+            padding: 2rem;
+            text-align: center;
+            color: #333;
+        }
+        .nft-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 2rem 0;
+        }
+        .nft-item {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 1rem;
+            padding: 1rem;
+            width: 200px;
+            text-align: center;
+        }
+        .nft-item img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .nft-price {
+            color: #4CAF50;
+            font-weight: bold;
+            margin-top: 0.5rem;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">NFT Marketplace</div>
+        <nav>
+            <a href="#">Accueil</a>
+            <a href="#">Explorer</a>
+            <a href="#">Mes NFT</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="banner">
+        <h1>Découvrez des NFT uniques et collectionnez les maintenant !</h1>
+    </div>
+    <div class="nft-grid">
+        <div class="nft-item">
+            <img src="nft1.jpg" alt="NFT 1">
+            <div class="nft-price">1 ETH</div>
+        </div>
+        <div class="nft-item">
+            <img src="nft2.jpg" alt="NFT 2">
+            <div class="nft-price">2 ETH</div>
+        </div>
+        <div class="nft-item">
+            <img src="nft3.jpg" alt="NFT 3">
+            <div class="nft-price">0.5 ETH</div>
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 NFT Marketplace. Tous droits réservés.
+    </footer>
+</body>
+</html>
