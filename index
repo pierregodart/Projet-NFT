@@ -77,16 +77,20 @@
     </div>
     <div class="nft-grid">
         <div class="nft-item">
-            <img src="images/CHATOLIC KNIGHT.jpg" alt="NFT 1">
+            <img src="images/KNIGHT_FANTASY.jpg" alt="NFT 1">
             <div class="nft-price">1 ETH</div>
         </div>
         <div class="nft-item">
-            <img src="nft2.jpg" alt="NFT 2">
+            <img src="images/WOMEN KNIGHT.jpg" alt="NFT 2">
             <div class="nft-price">2 ETH</div>
         </div>
         <div class="nft-item">
-            <img src="nft3.jpg" alt="NFT 3">
+            <img src="images/LIGHTSOULS.jpg" alt="NFT 3">
             <div class="nft-price">0.5 ETH</div>
+        </div>
+        <div class="nft-item">
+            <img src="images/CHATOLIC KNIGHT.jpg" alt="NFT 3">
+            <div class="nft-price">0.8 ETH</div>
         </div>
     </div>
     <footer>
